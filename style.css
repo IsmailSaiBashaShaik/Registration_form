@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to right bottom, #2c3e50, #8e44ad); /* Royal black to royal violet gradient */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 60%; /* Adjust the width as needed */
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    text-align: center;
+    color: #ffd700;
+}
+
+.form-label {
+    color: #ffd700;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #ffd700;
+    border-color: #ffd700;
+}
+
+.btn-primary:hover {
+    background-color: #cc9900;
+    border-color: #cc9900;
+}

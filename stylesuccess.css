@@ -1,0 +1,36 @@
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    color: #ffd700;
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
